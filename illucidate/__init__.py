@@ -1,14 +1,20 @@
+```python
 """
-Illucidate: Early warning signals for bacterial detection.
+Illucidate - AI-powered early detection for bacterial strain classification.
 
-A toolkit for discovering multivariate, time-structured patterns in
-phage-based biosensor data that enable earlier pathogen detection.
+Quick Start:
+    >>> from illucidate import load_data, EarlyDetectionAnalyzer
+    >>> dataset = load_data('growth_curves.xlsx')
+    >>> wide_df = dataset.to_wide_format()
+    >>> analyzer = EarlyDetectionAnalyzer(wide_df)
 """
 
-__version__ = "0.1.0"
-__author__ = "Caleb Waddell"
+__version__ = '0.1.0'
 
-# Make key classes easily accessible
-from illucidate.adapters.base_adapter import BaseAdapter, quick_parse
+from .adapters import load_data, GrowthCurveDataset
+from .core import EarlyDetectionAnalyzer
 
-__all__ = ['BaseAdapter', 'quick_parse', '__version__']
+__all__ = ['load_data', 'GrowthCurveDataset', 'EarlyDetectionAnalyzer']
+```
+
+---
