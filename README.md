@@ -21,7 +21,7 @@
 **Current Version:** 0.1.0-alpha  
 **Last Updated: February 2026
 
-This toolkit is under active development as part of doctoral research at Purdue University. Core functionality is being built and validated.
+This toolkit is under active development as part of graduate research at Purdue University. Core functionality is being built and validated.
 
 ### ✅ What Works Now:
 - [x] Project structure and documentation
@@ -81,11 +81,16 @@ That's Illucidate—bringing the hidden signals to light.
 
 ---
 
-### Support the Synthesis
+### ☕ Support the Synthesis ☕
 
 Maintaining this level of cross-disciplinary research has a metabolic cost. If this toolkit helps your systems, feel free to fuel the next deep dive.
 
-<a href="https://buymeacoffee.com/cwaddell13"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=cwaddell13&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" width="180" /></a>
+<p align="center">
+  <a href="https://buymeacoffee.com/cwaddell13">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
+         width="160">
+  </a>
+</p>
 
 ---
 
